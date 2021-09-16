@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,7 +13,6 @@ public class Player : MonoBehaviour
     int count = 0;
     void Start()
     {
-        Application.targetFrameRate = 60;
         _mainGameObjects = _gameObjects;
         _oldVector3 = transform.position;
         foreach (var item in _mainGameObjects)

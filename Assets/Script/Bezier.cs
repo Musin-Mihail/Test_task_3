@@ -1,10 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Bezier
 {
-    public static Vector3 GetPoint2(List<Transform> _listVector3, float t) {
+    public static Vector3 GetPoint2(List<Transform> _listVector3, float t)
+    {
         List<Vector3> _newListVector3 = new List<Vector3>();
         foreach (var item in _listVector3)
         {
